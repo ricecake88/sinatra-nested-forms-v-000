@@ -8,9 +8,9 @@
   Pirate Weight: <input type="text" name="pirate[weight]"><br/>
   Pirate Height: <input type="text" name="pirate[height]"><br/>
   <% 2.times do |i| %>
-  Ship name: <input type="text" name="pirate[ships][][name]" id="ship_name_<%i%>"><br/>
-  Ship Type: <input type="text" name="pirate[ships][][type]" id="ship_name_<% i %>"><br/>
-  Ship Booty: <input type="text" name="pirate[ships][][booty]" id="ship_name_<% i %>"><br/>
+  Ship name: <input type="text" name="pirate[ships][][name]" id="ship_name_<%=i%>"><br/>
+  Ship Type: <input type="text" name="pirate[ships][][type]" id="ship_name_<%=i%>"><br/>
+  Ship Booty: <input type="text" name="pirate[ships][][booty]" id="ship_name_<%=i%>"><br/>
   <% end %>
   <input type="submit" name="submit" value="submit">
 </form>
