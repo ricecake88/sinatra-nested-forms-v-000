@@ -7,6 +7,9 @@ class Ship
     @name = args[:name]
     @type = args[:type]
     @booty = args[:booty]
+    puts @name
+    puts @type
+    puts @booty
     SHIPS << self
   end
   
