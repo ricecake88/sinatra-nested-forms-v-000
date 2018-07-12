@@ -7,13 +7,15 @@ class Ship
     @name = args[:name]
     @type = args[:type]
     @booty = args[:booty]
-    puts @name
-    puts @type
-    puts @booty
     SHIPS << self
   end
   
   def self.all
+    SHIPS.each do |ship|
+      puts ship.name
+      puts ship.type
+      puts ship.booty
+    end
     SHIPS
   end
   
