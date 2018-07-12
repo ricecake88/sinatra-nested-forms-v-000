@@ -3,9 +3,9 @@ class Pirate
   
   PIRATES = []
   def initialize(args)
-    @name = args[:name]
-    @weight = args[:weight]
-    @height = args[:height]
+    @name = params[:name]
+    @weight = params[:weight]
+    @height = parms[:height]
     PIRATES << args
   end
   
