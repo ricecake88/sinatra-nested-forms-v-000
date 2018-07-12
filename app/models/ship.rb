@@ -11,11 +11,6 @@ class Ship
   end
   
   def self.all
-    SHIPS.each do |ship|
-      puts ship.name
-      puts ship.type
-      puts ship.booty
-    end
     SHIPS
   end
   
